@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Enigma Machine Simulator</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="c1">
+        <canvas id="canvas" width="500" height="500"></canvas>
+      </div>
+      <div class="c2">
+        <textarea id="inputText" placeholder="Enter text here"></textarea>
+        <textarea
+          id="outputText"
+          placeholder="Cipher text will appear here"
+          readonly
+        ></textarea>
+
+        <!-- <button id="encryptButton">Encrypt</button>
+        <button id="decryptButton">Decrypt</button> -->
+      </div>
+      <div class="c3">
+        <p>Cipher Log</p>
+        <pre><code class="cde"></code></pre>
+      </div>
+    </div>
+
+    <script src="./Logger.js"></script>
+    <script src="./Pb.js"></script>
+    <script src="./Rtr.js"></script>
+    <script src="./Rotor.js"></script>
+    <script src="./Lightboard.js"></script>
+    <script src="./Keyboard.js"></script>
+    <script src="./Reflector.js"></script>
+    <script src="./EnigmaMachine.js"></script>
+    <script src="./Plugboard.js"></script>
+    <script src="./EnigmaMachineDesign.js"></script>
+    <script src="./utils.js"></script>
+
+    <!-- <script src="combined_script.js"></script> -->
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>

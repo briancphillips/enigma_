@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #192229;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+}
+
+.c1 {
+  padding: 0;
+
+  flex-direction: row;
+}
+.c2 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.c3 {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  display: flex;
+  margin: 0;
+  color: aliceblue;
+  text-indent: 25px;
+}
+
+textarea {
+  width: 300px;
+  height: 100px;
+  margin: 0 0 10px 0;
+  background-color: aliceblue;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+pre {
+  background-color: aliceblue; /* Light grey background */
+  border: 1px solid #ddd; /* Light grey border */
+  border-left: 3px solid #192229; /* Accent border on the left */
+  color: #666; /* Darker text color for contrast */
+  page-break-inside: avoid;
+  font-family: monospace; /* Monospaced font for code */
+  font-size: 15px; /* Adjust font size as needed */
+  overflow: scroll; /* Adds a scrollbar if the content overflows */
+  padding: 1em; /* Padding inside the box */
+  margin: 0.5em 0; /* Margin around the box */
+  word-wrap: break-word; /* Ensures long lines don't overflow */
+  white-space: pre-wrap; /* Maintains whitespace but allows wrapping */
+  width: 400px;
+  height: 440px;
+}
+
+code {
+  background-color: aliceblue; /* Same background as pre for consistency */
+  border-radius: 3px; /* Optional: adds rounded corners */
+  padding: 0; /* Adjust padding inside the code element if needed */
+}
